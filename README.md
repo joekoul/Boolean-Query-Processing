@@ -6,8 +6,9 @@ Given posting lists generated from the RCV1 news corpus (http://www.daviddlewis.
 Rebuild the index after reading in the data. Linked List is be used to store the index data in memory. Constructed 
 two index with two different ordering strategies: 
 
-with one strategy, the posting of each term should be ordered by  increasing document IDs; 
-with the other strategy, the postings of each term should be ordered by decreasing term frequencies. 
+with one strategy, the posting of each term is ordered by increasing document IDs; 
+
+with the other strategy, the postings of each term is ordered by decreasing term frequencies. 
 
 Implemented modules that return documents based on term-at-a-time with the postings list ordered by term frequencies,
 and document-at-a-time with the postings list ordered by doc IDs for a set of queries.
